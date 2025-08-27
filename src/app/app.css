@@ -1,0 +1,7 @@
+/* app.component.css or a global layout CSS */
+.main-content {
+  padding-top: 3rem; /* same height as header + extra spacing */
+}
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
