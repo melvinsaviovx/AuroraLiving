@@ -1,0 +1,62 @@
+body {
+  margin:0;
+  font-family:'Montserrat',sans-serif;
+  background:#0d1117;
+  color:#fff;
+}
+
+.portfolio-simple {
+  padding:4rem 2rem;
+  text-align:center;
+}
+
+.portfolio-title {
+  font-size:3rem;
+  margin-bottom:3rem;
+  color:rgb(0, 0, 0);
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  gap:2rem;
+}
+
+.project-item {
+  position:relative;
+  height:350px;
+  border-radius:1rem;
+  background-size:cover;
+  background-position:center;
+  overflow:hidden;
+  cursor:pointer;
+  transition:transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.project-item:hover {
+  transform:scale(1.05);
+  box-shadow:0 0 20px #0ff,0 0 40px #ff6f61;
+}
+
+.project-info {
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  background:rgba(0,0,0,0.6);
+  color:#fff;
+  padding:1rem;
+  text-align:center;
+}
+
+.project-info h2 {
+  margin:0;
+  font-size:1.2rem;
+  color:#0ff;
+}
+
+.project-info p {
+  margin:0.3rem 0 0 0;
+  font-size:1rem;
+  color:#cbd5e1;
+}

@@ -1,0 +1,25 @@
+<section class="contact-section">
+  <div class="contact-card">
+    <h1 class="contact-title">Let’s Design the Future</h1>
+    <p class="contact-subtitle">Share your vision. We’ll turn it into reality.</p>
+
+    <form (ngSubmit)="sendToWhatsApp()" #enquiryForm="ngForm" class="contact-form">
+      <div class="form-group">
+        <input type="text" name="name" [(ngModel)]="enquiryData.name" required placeholder=" ">
+        <label>Your Name</label>
+      </div>
+
+      <div class="form-group">
+        <input type="text" name="location" [(ngModel)]="enquiryData.location" required placeholder=" ">
+        <label>Your Location</label>
+      </div>
+
+      <div class="form-group">
+        <input type="email" name="email" [(ngModel)]="enquiryData.email" required placeholder=" ">
+        <label>Your Email</label>
+      </div>
+
+      <button type="submit" class="neon-button">Submit</button>
+    </form>
+  </div>
+</section>

@@ -29,7 +29,7 @@ body {
 }
 
 .futuristic-header:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgb(249, 248, 248);
 }
 
 /* Logo */
@@ -89,7 +89,7 @@ body {
 .menu-toggle {
   display: none;
   font-size: 1.8rem;
-  color: #38bdf8;
+  color: #000000;
   cursor: pointer;
 }
 
