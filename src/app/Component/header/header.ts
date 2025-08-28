@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router'; // <-- Import RouterModule
 
 @Component({
   selector: 'app-header',
+  standalone: true,
   templateUrl: './header.html',
-  styleUrl: './header.css'
+  styleUrls: ['./header.css']
 })
 export class Header {
 isMenuOpen = false;

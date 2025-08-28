@@ -21,7 +21,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
-  background: rgba(255, 255, 255, 0.05);
+  background: #ffffff; /* solid white background instead of transparent */
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   z-index: 1000;
@@ -29,7 +29,7 @@ body {
 }
 
 .futuristic-header:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgb(249, 248, 248);
 }
 
 /* Logo */
@@ -47,7 +47,9 @@ body {
 } */
 
 .logo:hover {
-  background: linear-gradient(90deg, #38bdf8, #f472b6); /* cyan → pink */
+  background: linear-gradient(90deg, #38bdf8, #f472b6); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /* Navigation */
 .nav-links {
@@ -87,7 +89,7 @@ body {
 .menu-toggle {
   display: none;
   font-size: 1.8rem;
-  color: #38bdf8;
+  color: #000000;
   cursor: pointer;
 }
 
