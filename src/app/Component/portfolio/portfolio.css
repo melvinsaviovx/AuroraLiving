@@ -36,7 +36,6 @@ body {
 
 .project-item:hover {
   transform:scale(1.05);
-  box-shadow:0 0 20px #0ff,0 0 40px #ff6f61;
 }
 
 .project-info {
@@ -53,7 +52,6 @@ body {
 .project-info h2 {
   margin:0;
   font-size:1.2rem;
-  color:#0ff;
 }
 
 .project-info p {
