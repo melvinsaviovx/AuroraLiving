@@ -6,10 +6,11 @@ import { Services } from './Component/services/services';
 import { Team } from './Component/team/team';
 import { Portfolio } from './Component/portfolio/portfolio';
 import { Contact } from './Component/contact/contact';
+import{ About } from './Component/about/about';
 
 @Component({
   selector: 'app-root',
-  imports: [Header,Footer,Home,Services,Team,Portfolio,Contact],
+  imports: [Header,Footer,Home,Services,Team,Portfolio,Contact,About],
   standalone: true,
   templateUrl: './app.html',
   styleUrl: './app.css'

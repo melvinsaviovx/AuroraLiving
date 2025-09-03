@@ -47,7 +47,7 @@ body {
 } */
 
 .logo:hover {
-  background: linear-gradient(90deg, #38bdf8, #f472b6); 
+  background: linear-gradient(90deg, #000000, #000000); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -72,7 +72,7 @@ body {
   left: 0;
   width: 0%;
   height: 2px;
-  background: linear-gradient(90deg, #38bdf8, #f472b6);
+  background: linear-gradient(90deg, #000000, #000000);
   transition: width 0.3s ease;
   border-radius: 4px;
 }

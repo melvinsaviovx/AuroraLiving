@@ -1,4 +1,6 @@
-<section class="contact-section">
+<!-- <section class="contact-section"> -->
+<section class="total">
+
   <div class="contact-card">
     <h1 class="contact-title">Let’s Design the Future</h1>
     <p class="contact-subtitle">Share your vision. We’ll turn it into reality.</p>
@@ -17,6 +19,11 @@
       <div class="form-group">
         <input type="email" name="email" [(ngModel)]="enquiryData.email" required placeholder=" ">
         <label>Your Email</label>
+      </div>
+
+      <div class="form-group">
+        <input type="phone" name="phone" [(ngModel)]="enquiryData.phone" required placeholder=" ">
+        <label>Your Phone No</label>
       </div>
 
       <button type="submit" class="neon-button">Submit</button>

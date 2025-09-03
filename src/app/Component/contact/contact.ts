@@ -17,7 +17,7 @@ export class Contact {
     phone: ''
   };
 
-  clientNumber: string = '918903650625'; // ✅ Replace with your WhatsApp number
+  clientNumber: string = '918248893858'; // ✅ Replace with your WhatsApp number
 
   sendToWhatsApp() {
     const message = encodeURIComponent(
