@@ -16,9 +16,9 @@ body {
   color:rgb(0, 0, 0);
 }
 
-.projects-container {
+/* .projects-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* exactly 3 per row */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 2rem;
 }
 
@@ -32,7 +32,26 @@ body {
   overflow:hidden;
   cursor:pointer;
   transition:transform 0.5s ease, box-shadow 0.5s ease;
+} */
+
+.projects-container {
+  display: flex;
+  justify-content: center;  /* centers the image */
+  align-items: center;
+  padding: 2rem;
 }
+
+.project-item {
+  position: relative;
+  width: min(90%, 400px);   /* max width 400px, centered */
+  aspect-ratio: 1080 / 1280; /* keeps original portrait ratio */
+  border-radius: 1rem;
+  background-size: cover;    /* fills frame */
+  background-position: center;
+  overflow: hidden;
+}
+
+
 
 .project-item:hover {
   transform:scale(1.05);
